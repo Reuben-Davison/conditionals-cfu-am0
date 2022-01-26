@@ -18,30 +18,38 @@ string_teachers = "4"
 numberDogs = 0
 
 # EXAMPLE: print the result of the comparison: is number_seachers greater than number_students?
-puts "Is number_teachers greater than number_students?", number_teachers > number_students);
+puts "Is number_teachers greater than number_students?", number_teachers > number_students
 # this should print: "Is numberTeachers greater than numberStudents?" false
 
 # YOU DO: print the result of the comparison: is number_teachers less than number_students?
 # this should print: true
+puts number_teachers < number_students
+
 
 # YOU DO: print the result of the comparison: is number_teachers equal to string_teachers?
 # this should print: true
+puts number_teachers == string_teachers
 
 
 # YOU DO: print the result of the comparison: is number_teachers not equal to number_students?
 # this should print: true
+puts number_teachers != number_students
 
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 20?
 # this should print: true
+puts number_students >= 20
 
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 21?
 # this should print: false
+puts number_students >= 21
 
 # YOU DO: print the result of the comparison: is number_students less than or equal to 20?
 # this should print: true
+puts number_students <= 20
 
 # YOU DO: print the result of the comparison: is number_students less than or equal to 21?
 # this should print: true
+puts number_students <= 21
 
 
 #-------------------
@@ -55,20 +63,27 @@ puts "Is number_teachers greater than number_students?", number_teachers > numbe
 
 puts 4 < 9
 #YOU DO: Explain.
+# This will print out "false" because 4 is less than 9
 
 books = 3
 puts 4 < books
 # YOU DO: Explain.
+# this assigns a integer value of 3 to the varible "books". When ran this will
+#return "false"
 
 friends = 6
 siblings = 2
 puts friends > siblings
 # YOU DO: Explain.
+#this is assigning two values to two variables. Those values are compared and
+#6 is greater than 2, "true" will be printed.
 
 attendees = 9;
 meals = 8;
 puts attendees != meals
 # YOU DO: Explain.
+
+# It will print true due to 9 is not equal to 8
 
 
 #-------------------
@@ -81,25 +96,35 @@ finished_homework = false
 # EXAMPLE:
 # Determine if the user is hungry and has completed their homework
 is_hungry && finished_homework
+
 # Determine if the user is hungry or has completed their homework
 is_hungry || finished_homework
+
 
 loves_to_play = true
 loves_dog_park = false
 loves_treats = true
-age = 1
+age = 1.5
 
+is_a_puppy = true
+  if age <= 1
+  else is_a_puppy = false
+  end
+
+puts "start"
 # YOU DO:
 # Determine if the dog loves to play and loves treats
-
+puts loves_to_play && loves_treats
 
 # Determine if the dog loves to play and loves the dog park
-
+puts loves_to_play && loves_dog_park
 
 # Determine if the dog loves to play or loves the dog park
-
+puts loves_to_play || loves_dog_park
 
 # Determine if the dog loves to play and is a puppy
+puts "test"
+puts loves_to_play && is_a_puppy
 
 # What did your final line of code evaluate to? Why do you think that is? Explain.
-# ANSWER:
+# ANSWER: is_a_puppy is not a variable so there value assigned. Added code to fix
