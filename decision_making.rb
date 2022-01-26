@@ -35,9 +35,19 @@ end
 
 # Questions
 # 1. In English, using technical vocabulary, describe what is happening between lines 12 and 16.
+# These are "if statements", the code is looking for a met conditon. If that condition
+#is met, then it will run the next peice of code.
+
 # 2. What variable has a new value assigned to it after the first if statement executes?
+#bear_clothing
+
 # 3. If you changed the variable door_choice to equal 3, what would the bear_clothing value be?
+#scarf, any choice other than 1 will be scarf
 # 4. In English, using technical vocabulary, describe what is happening between lines lines 25 and 33.
+#The code is looking to see what value the varible has and then executing the puts that correspond
 # 5. If you changed the variable bear_choice to equal 3, what will be the final outcome be?
+# Hope you're not Indiana Jones
 # 6. If you changed the variable door_choice to equal 1, and the variable bear_choice to equal 2, what will be the final outcome be?
+#A crying bear wearing a hat
 # 7. What is your favorite ending?
+#SNAKES!!!!!
